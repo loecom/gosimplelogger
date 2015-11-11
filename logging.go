@@ -62,6 +62,14 @@ func Infof(format string, v ...interface{}) {
 	logf(infoLogger, LogInfo, format, v...)
 }
 
+func Println(v ...interface{}) {
+	Info(v...)
+}
+
+func Printf(format string, v ...interface{}) {
+	Infof(format, v...)
+}
+
 func Error(v ...interface{}) {
 	logln(errorLogger, LogError, v...)
 }
