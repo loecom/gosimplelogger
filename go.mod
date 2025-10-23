@@ -1,1 +1,1 @@
-module github.com/Crosse/gosimplelogger
+module github.com/loecom/gosimplelogger
